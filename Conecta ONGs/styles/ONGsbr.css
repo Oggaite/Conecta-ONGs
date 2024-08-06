@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD;
+    --cor-quatro: #5d96b1;
+    --cor-hover: #272727;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.maior {
+    font-size: 24px;
+    font-family: var(--fonte-secundaria);
+}
+
+#progress-line {
+    position: fixed;
+    left: 0px;
+    top: 0;
+    width: 10px;
+    height: 100vh;
+    background-color: var(--cor-terciaria); 
+    z-index: 999;
+  }
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+}
+.navbar {
+    background-color: #f0f0f0E6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    z-index: 10; 
+  }
+
+  .logo {
+    margin-right: 20px;
+    margin-left: 10px;
+    font-family: var(--fonte-primaria);
+    text-decoration: none;
+  }
+
+  .logo a {
+    text-decoration: none;
+    color: var(--cor-hover);
+  }
+
+  .search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    border-radius: 6px;
+  }
+
+  .search-bar input {
+    width: 50%;
+    margin: 3px 20% 3px 20%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-family: var(--fonte-secundaria);
+  }
+
+  .donate-button {
+    background-color: var(--cor-terciaria);
+    color: rgb(0, 0, 0);
+    padding: 8px 16px;
+    border-radius: 6px;
+    margin-right: 40px;
+    border: none;
+    cursor: pointer;
+    font-family: var(--fonte-secundaria);
+  }
+
+  .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 40px;
+  }
+
+  .sub-navbar {
+    display: none;
+    position: fixed;
+    width: 100%;
+    top: 54px;
+    background-color: #f0f0f0E6;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    animation: slideDown 0.6s ease;
+    text-decoration: none;
+    z-index: 9;
+  }
+
+  .sub-navbar.hide { 
+    animation: slideUp 0.4s ease;
+  }
+
+  .sub-navbar a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: var(--cor-terciaria);
+  }
+
+  .sub-navbar a:hover {
+    background-color: #dddddd59;
+  }
+
+.sub-navbar-texto {
+    font-family: var(--fonte-secundaria);
+}  
+
+  /* Animação */
+  @keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-100%);
+    }
+  }

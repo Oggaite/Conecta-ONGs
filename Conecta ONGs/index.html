@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="linha.js"></script>
+    <script src="scripts.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+          <a href="index.html"><h1>Conecta ONGs</h1></a>
+        </div>
+        <div class="search-bar">
+          <input type="text" placeholder="Pesquisar...">
+        </div>
+        <button class="donate-button"><strong>Cadastre-se</strong></button>
+        <span class="menu-icon" onclick="toggleSubNavbar()">☰</span>
+      </nav>
+    
+      <nav class="sub-navbar" id="subNavbar">
+        <a class="sub-navbar-texto" href="#"><strong>Sobre-nos</strong></a>
+        <a class="sub-navbar-texto" href="#"><strong>ONGs no Brasil</strong></a>
+        <a class="sub-navbar-texto" href="#"><strong>Projetos Sociais</strong></a>
+        <a class="sub-navbar-texto" href="#"><strong>Descarte Consciente</strong></a>
+        <a class="sub-navbar-texto" href="#"><strong>Ajuda-me</strong></a>
+      </nav>
+    <div id="progress-line"></div>
+    <h1 class="bem-vindo">Bem-vindo(a) ao <strong class="titulo-destaque">Conecta ONGs!</strong></h1>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+
+            <h1 class="apresentacao__conteudo__titulo">Esse é um espaço criado para conectar pessoas, projetos e causas sociais.<strong 
+            class="titulo-destaque"> Aqui você encontra informações sobre ONGs de todo o Brasil, além de ferramentas para ajudar e ser ajudado.
+            </strong></h1>
+            <br><br>
+                <h1 class="maior"> Divulgar o trabalho das ONGs brasileiras: </h1><p class="apresentacao__conteudo__texto">Reunimos em um só lugar informações sobre centenas de ONGs, suas áreas de atuação, projetos e formas de contato.</p>
+                <br><br>
+                <h1 class="maior">Facilitar a busca por ajuda: </h1><p class="apresentacao__conteudo__texto">Através de filtros e ferramentas de busca, você pode encontrar ONGs que atuam na sua região e que atendem às suas necessidades.</p>
+                <br><br>
+                <h1 class="maior">Promover a doação e o voluntariado: </h1><p class="apresentacao__conteudo__texto">Oferecemos um espaço para que você possa doar recursos ou se voluntariar para projetos sociais.</p>
+                <br><br>
+                <h1 class="maior">Conectar pessoas e causas: </h1><p class="apresentacao__conteudo__texto">Acreditamos que a união faz a força. No Conecta ONGs, você pode encontrar histórias inspiradoras, participar de campanhas e conhecer pessoas que estão fazendo a diferença no mundo.</p>
+        </section>
+        <div class="imagens">
+            <img src="./assets/janemba.png">
+          </div>
+    </main>
+    <div class="container">
+        <div class="item"><a class="item-link" href="ongsnobrasil.html" ><h1>Conheça as <strong>ONGs</strong> <br> que transformam o Brasil</h1></a>  O Brasil conta com um forte e ativo terceiro setor, com milhares de ONGs dedicadas a causas importantes e impactando positivamente a vida de milhões de pessoas. Nesta seção, você encontrará um guia completo sobre algumas das ONGs mais famosas do Brasil, com informações detalhadas sobre suas áreas de atuação, projetos em andamento e como você pode fazer sua contribuição.
+        </div>
+      </div>
+      <div class="espaco" ></div>
+    <div class="container2">
+        <div class="item2"><a class="item2-link" href="ongsnobrasil.html" ><h1>Conheça as <strong class="titulo-destaque">ONGs</strong> <br> que transformam o Brasil</h1></a></div> 
+        <p>O Brasil conta com um forte e ativo terceiro setor, com milhares de ONGs dedicadas a causas importantes e impactando positivamente a vida de milhões de pessoas. Nesta seção, você encontrará um guia completo sobre algumas das ONGs mais famosas do Brasil, com informações detalhadas sobre suas áreas de atuação, projetos em andamento e como você pode fazer sua contribuição.</p>
+    </div>
+    <div class="espaco"></div>
+    <div class="container3">
+        <div class="item3"><a class="item3-link" href="ongsnobrasil.html" ><h1>Conheça as <strong>ONGs</strong> <br> que transformam o Brasil</h1></a>  O Brasil conta com um forte e ativo terceiro setor, com milhares de ONGs dedicadas a causas importantes e impactando positivamente a vida de milhões de pessoas. Nesta seção, você encontrará um guia completo sobre algumas das ONGs mais famosas do Brasil, com informações detalhadas sobre suas áreas de atuação, projetos em andamento e como você pode fazer sua contribuição.
+        </div>
+      </div>
+    <div class="espaco"></div>
+    <div class="container4">
+        <div class="item4"><a class="item4-link" href="ongsnobrasil.html" ><h1>Conheça as <strong class="titulo-destaque">ONGs</strong> <br> que transformam o Brasil</h1></a></div> 
+        <p>O Brasil conta com um forte e ativo terceiro setor, com milhares de ONGs dedicadas a causas importantes e impactando positivamente a vida de milhões de pessoas. Nesta seção, você encontrará um guia completo sobre algumas das ONGs mais famosas do Brasil, com informações detalhadas sobre suas áreas de atuação, projetos em andamento e como você pode fazer sua contribuição.</p>
+    </div>
+    <h2 class="apresentacao__links__subtitulo">Plataformas de Contatos</h2>
+    <div class="apresentacao__links">
+        <a class="apresentacao__links__link" href="">
+            <img class="imagemap2" src="./assets/instazul.png">
+            Instagram
+        </a>
+        <a class="apresentacao__links__link" href="">
+            <img class="imagemap2" src="./assets/gmail.png">
+            Gmail
+        </a>
+        <a class="apresentacao__links__link" href="">
+            <img class="imagemap3" src="./assets/whatazul.png">
+            Whatsapp
+        </a>
+    </div>
+</section>
+    <footer class="rodape">
+        <p>DAAAAAAAAAAAAAAAAAAAAAAAAA.</p>
+    </footer>
+    <script>
+        const item = document.querySelector('.item');
+        window.addEventListener('scroll', () => {
+          const itemPosition = item.getBoundingClientRect().top; 
+          if (itemPosition < window.innerHeight) {
+            item.style.opacity = 1;
+            item.style.transform = 'translateX(0)';
+          }
+        });
+      
+        const container2p = document.querySelector('.container2 p');
+        window.addEventListener('scroll', () => {
+          const container2pPosition = container2p.getBoundingClientRect().top; 
+          if (container2pPosition < window.innerHeight) {
+            container2p.style.opacity = 1;
+            container2p.style.transform = 'translateX(0)';
+          }
+        });
+
+        const item2 = document.querySelector('.item2');
+        window.addEventListener('scroll', () => {
+          const item2Position = item2.getBoundingClientRect().top; 
+          if (item2Position < window.innerHeight) {
+            item2.style.opacity = 1;
+            item2.style.transform = 'translateX(0)';
+          }
+        });
+
+        const item3 = document.querySelector('.item3');
+        window.addEventListener('scroll', () => {
+          const item3Position = item3.getBoundingClientRect().top; 
+          if (item3Position < window.innerHeight) {
+            item3.style.opacity = 1;
+            item3.style.transform = 'translateX(0)';
+          }
+        });
+
+        const container4p = document.querySelector('.container4 p');
+        window.addEventListener('scroll', () => {
+          const container4pPosition = container4p.getBoundingClientRect().top; 
+          if (container4pPosition < window.innerHeight) {
+            container4p.style.opacity = 1;
+            container4p.style.transform = 'translateX(0)';
+          }
+        });
+
+        const item4 = document.querySelector('.item4');
+        window.addEventListener('scroll', () => {
+          const item4Position = item4.getBoundingClientRect().top; 
+          if (item4Position < window.innerHeight) {
+            item4.style.opacity = 1;
+            item4.style.transform = 'translateX(0)';
+          }
+        });
+
+      </script>
+</body>
+
+</html>
