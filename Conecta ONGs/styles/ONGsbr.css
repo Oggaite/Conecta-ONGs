@@ -34,9 +34,11 @@ body{
     box-sizing: border-box;
     background-color: var(--cor-secundaria);
     color: var(--cor-primaria);
+    overflow-x: hidden;
 }
 .navbar {
-    background-color: #f0f0f0E6;
+    background-color: #f0f0f0bd;
+    backdrop-filter: blur(10px);
     position: fixed;
     top: 0;
     width: 100%;
@@ -65,7 +67,7 @@ body{
   }
 
   .search-bar input {
-    width: 50%;
+    width: 30%;
     margin: 3px 20% 3px 20%;
     padding: 7px;
     border: 1px solid #ccc;
@@ -95,9 +97,10 @@ body{
     position: fixed;
     width: 100%;
     top: 54px;
-    background-color: #f0f0f0E6;
+    background-color: #f0f0f0bd;
+    backdrop-filter: blur(10px);
     color: #fff;
-    padding: 10px;
+    padding-top: 10px;
     text-align: center;
     animation: slideDown 0.6s ease;
     text-decoration: none;
@@ -116,11 +119,13 @@ body{
   }
 
   .sub-navbar a:hover {
-    background-color: #dddddd59;
+    background-color: #000000a6;
+    transition: background-color 0.2s ease-in-out;
   }
 
 .sub-navbar-texto {
     font-family: var(--fonte-secundaria);
+    font-size: large;
 }  
 
   /* Animação */

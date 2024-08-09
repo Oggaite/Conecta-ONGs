@@ -34,6 +34,7 @@ body{
     box-sizing: border-box;
     background-color: var(--cor-secundaria);
     color: var(--cor-primaria);
+    overflow-x: hidden;
 }
 .navbar {
     background-color: #f0f0f0bd;
