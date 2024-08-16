@@ -11,30 +11,48 @@
     <script src="scripts.js"></script>
 </head>
 
-  <body>
+<body>
     <nav class="navbar">
-      <div class="logo">
-        <a href="index.html"><h1>Conecta ONGs</h1></a>
-      </div>
-      <div class="search-bar">
-         <input type="text" placeholder="Pesquisar...">
-      </div>
-      <button class="donate-button"><strong>Cadastre-se</strong></button>
-      <span class="menu-icon" onclick="toggleSubNavbar()">☰</span>
-    </nav>
-
+        <div class="logo">
+          <a href="index.html"><h1>Conecta ONGs</h1></a>
+        </div>
+        <div class="search-bar">
+          <input type="text" placeholder="Pesquisar...">
+        </div>
+        <button class="donate-button"><strong>Cadastre-se</strong></button>
+        <span class="menu-icon" onclick="toggleSubNavbar()">☰</span>
+      </nav>    
       <nav class="sub-navbar" id="subNavbar">
-        <a class="sub-navbar-texto" href="index.html"><strong>Sobre-nos</strong></a>
-        <a class="sub-navbar-texto" href="ONGsbr.html"><strong>ONGs no Brasil</strong></a>
+        <a class="sub-navbar-texto" href="#"><strong>Sobre-nos</strong></a>
+        <a class="sub-navbar-texto" href="#"><strong>ONGs no Brasil</strong></a>
         <a class="sub-navbar-texto" href="#"><strong>Projetos Sociais</strong></a>
         <a class="sub-navbar-texto" href="#"><strong>Descarte Consciente</strong></a>
         <a class="sub-navbar-texto" href="#"><strong>Ajuda-me</strong></a>
       </nav>
-    <div id="progress-line"></div>
-    <main class="apresentacao">
-      
-
-    </main>
-
-  </body>
+      <div id="progress-line"></div>
+      <div class="container">
+        <div class="categories">
+            <h2>Categorias</h2>
+            <ul>
+                <li><input type="checkbox" name="category" value="cat1"> Cu</li>
+                <li><input type="checkbox" name="category" value="cat2"> Cu</li>
+                <li><input type="checkbox" name="category" value="cat3"> Cu</li>
+                <li><input type="checkbox" name="category" value="cat4"> Cu</li>
+            </ul>
+        </div>
+        <div class="items-container">
+            <div id="items" class="items">
+                <!-- JavaScript -->
+            </div>
+            <div class="pagination">
+                <button id="prev-page">Anterior</button>
+                <div id="page-numbers">
+                    <!-- JavaScript -->
+                </div>
+                <button id="next-page">Próximo</button>
+            </div>
+        </div>
+    </div>
+    <script src="./styles/teste.js"></script>
+</body>
 </html>
